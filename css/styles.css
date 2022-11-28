@@ -1,0 +1,147 @@
+:root {
+    --primary-bg: #E5E5E5;
+    --primary-brand: #4d5ae5;
+    --navy-biue: #2e2f42;
+    --green: #31d0aa;
+    --body-text: #434455;
+    --subtle-text: #8e8f99;
+    --accent-color: #e7e9fc;
+    --light-cloud: #f4f4fd;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-text);
+    background-color: #ffffff;
+}
+ul {
+    list-style: none;
+}
+.syte-nav .logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--navy-biue);
+    font-weight: 800;
+    font-size: 18px;
+}
+.syte-nav .logo:hover {
+    color: var(--body-text);
+}
+.syte-nav .logo:focus {
+    color: var(--primary-brand); 
+}
+.syte-nav .web {
+    font-family: 'Raleway', sans-serif;
+    color: var(--primary-brand);
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.syte-nav .web:hover {
+    color: var(--body-text);
+}
+
+.syte-nav .web:focus {
+    color: var(--primary-brand);
+}
+.auth-nav .link {
+    color: var(--navy-biue);
+    font-weight: 600;
+}
+.auth-nav .link:hover {
+    color: var(--body-text);
+}
+.auth-nav .link:focus {
+    color: var(--primary-brand);
+}
+.contacts a {
+    color: #434455;
+}
+.contacts a:hover,
+.contacts a:focus {
+    color: #4d5ae5;
+}
+.hero h1 {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 600;
+    
+}
+.hero {
+    background-color: #2E2F42;
+}
+.footer {
+    background-color: var(--navy-biue);
+}
+.footer .logo {
+    font-family: 'Raleway', sans-serif;
+    color: #F4F4FD;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.footer .logo:hover {
+    color: var(--body-text);
+}
+.footer .logo:focus {
+
+    color: var(--primary-brand);
+}
+.footer .web {
+
+    font-family: 'Raleway', sans-serif;
+    color: var(--primary-brand);
+    font-weight: 800;
+    font-size: 18px;
+}
+.footer .web:hover {
+
+    color: var(--body-text);
+}
+.footer .web:focus {
+
+    color: var(--primary-brand);
+}
+.footer .footer-text {
+    color: #E7E9FC;
+}
+.section .section-feature {
+    color: var(--navy-biue);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.section .text {
+    line-height: 1.5;
+}
+.section .section-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 600;
+}
+.team {
+    background-color: var(--light-cloud);
+}
+.button {
+   color: var(--body-text);
+   background-color: #ffffff;
+   cursor: pointer;
+   font-weight: 600;
+}
+.button.primary {
+    color: #ffffff;
+    background-color: var(--primary-brand);
+}
+.button.secondary {
+    color: var(--primary-brand);
+    background-color: #ffffff;
+}
+.button.primary:hover, 
+.button.secondary:hover{
+    color: #ffffff;
+    background-color: var(--primary-brand);
+}
+.button.primary:focus,
+.button.secondary:focus {
+    color: #ffffff;
+    background-color: #404bbf;
+}
